@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Independent Visual Freelancer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>About Me</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Hi, I'm Razvan.</h1>     
+            <p>This is a personal project. It can be perceived as a profile picture of the site. Being the only image with me available here.<br><br>
+
+                I will take advantage of the available space to make a short, more informal presentation of myself. 
+                If you have read so far, congratulations and thank you for your interest. 
+                Not many people have the patience and interest to read. 
+                My passion for visual arts started in high school and although I studied a college with a Digital Media field of study in Cluj-Napoca, I can say that I am mostly self-taught. 
+                My strengths in this field are layout editing, due to my experience as a magazine technical editor and editor-in-chief, but also the manipulation of images and illustrations, 
+                because my motivation to work is fueled by the possibility of using creativity. Speaking of creativity, I am a visionary and I am happy when I can inspire and be inspired.<br><br>
+                
+                If you want to collaborate, you have my personal email in the <b>"contact"</b> menu, if you just want to explore some of my work, visit my social media websites listed below.<br><br> 
+                
+                <b><i>Best wishes!</i></b></p>
+            <a href="contact.html" class="hero-btn red-btn">CONTACT</a>
+        </div>
+        <div class="about-col">
+            <img src="images/banner.png">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Visual artist, graphic designer & video editor based in Cluj-Napoca.<br></p>
+    <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/razvandobai"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> by Razvan Dobai</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
